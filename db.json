@@ -1,0 +1,120 @@
+{
+  "events": [
+    {
+      "id": 1,
+      "title": "Food Festival",
+      "description": "Sample dishes from local restaurants and food trucks at this annual event.",
+      "category": "food",
+      "date": "April 25"
+    },
+    {
+      "id": 2,
+      "title": "Marathon Race",
+      "description": "Join us for the annual marathon race through the city.",
+      "category": "sports",
+      "date": "April 26"
+    },
+    {
+      "id": 3,
+      "title": "Art Gallery Opening",
+      "description": "Check out the latest exhibit at the local art gallery.",
+      "category": "art",
+      "date": "April 27"
+    },
+    {
+      "id": 4,
+      "title": "Tech Conference",
+      "description": "Attend workshops and hear from industry experts at this annual tech conference.",
+      "category": "technology",
+      "date": "April 28"
+    },
+    {
+      "id": 5,
+      "title": "Food Truck Rally",
+      "description": "Try out dishes from a variety of food trucks at this annual event.",
+      "category": "food",
+      "date": "April 29"
+    },
+    {
+      "id": 6,
+      "title": "Basketball Game",
+      "description": "Come cheer on your favorite team at the local basketball game.",
+      "category": "sports",
+      "date": "April 30"
+    },
+    {
+      "id": 7,
+      "title": "Art Fair",
+      "description": "Browse the work of local artists and find some unique pieces to take home.",
+      "category": "art",
+      "date": "May 1"
+    },
+    {
+      "id": 8,
+      "title": "Tech Expo",
+      "description": "See the latest products and technologies from top companies at this annual expo.",
+      "category": "technology",
+      "date": "May 2"
+    },
+    {
+      "id": 9,
+      "title": "Food and Wine Festival",
+      "description": "Sample dishes from local restaurants and try out different wines at this annual festival.",
+      "category": "food",
+      "date": "May 3"
+    },
+    {
+      "id": 10,
+      "title": "Soccer Game",
+      "description": "Come cheer on your favorite team at the local soccer game.",
+      "category": "sports",
+      "date": "May 4"
+    }
+  ],
+  "dashboard": {
+    "posts": 5,
+    "likes": 150,
+    "followers": 20,
+    "following": 50
+  },
+  "news": [
+    {
+      "id": 1,
+      "title": "News article 1",
+      "category": "sports",
+      "description": "Description of article 1"
+    },
+    {
+      "id": 2,
+      "title": "News article 2",
+      "category": "politics",
+      "description": "Description of article 2"
+    },
+    {
+      "id": 3,
+      "title": "News article 3",
+      "category": "sports",
+      "description": "Description of article 3"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "title": "Product 1",
+      "price": 1000,
+      "description": "Description of product 1"
+    },
+    {
+      "id": 2,
+      "title": "Product 2",
+      "price": 2000,
+      "description": "Description of product 2"
+    },
+    {
+      "id": 3,
+      "title": "Product 3",
+      "price": 2500,
+      "description": "Description of product 3"
+    }
+  ]
+}
