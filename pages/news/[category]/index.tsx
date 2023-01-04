@@ -18,7 +18,7 @@ export default function ArticleListByCategory({
       <div className='grid grid-cols-1 gap-3 mt-8 md:grid-cols-2'>
         {articles?.map((article) => {
           return (
-            <div key={article.id} className='p-2 bg-gray-100 border border-2 border-indigo-700 rounded'>
+            <div key={article.id} className='p-2 bg-gray-100 border-2 border-indigo-700 rounded'>
               <h2 className='text-xl font-semibold'>{article.title}</h2>
               <p>{article.description}</p>
             </div>

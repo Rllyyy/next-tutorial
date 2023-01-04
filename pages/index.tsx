@@ -51,6 +51,22 @@ export default function Home() {
         <Link href='/events' className='block text-xl link'>
           Events (Pre-rendering + client side Data Fetching)
         </Link>
+        <h2 className='mt-4 text-xl font-bold'>API</h2>
+        <Link href='/comments' className='block text-xl link'>
+          Comments (GET/POST/DELETE)
+        </Link>
+        <h2 className='mt-4 text-xl font-bold'>MEMO</h2>
+        <Link href='/memo' className='block text-xl link'>
+          Memo
+        </Link>
+        <h2 className='mt-4 text-xl font-bold'>Image</h2>
+        <Link href='/pets' className='block text-xl link'>
+          Pets
+        </Link>
+        <h2 className='mt-4 text-xl font-bold'>Auth</h2>
+        <Link href='/auth' className='block text-xl link'>
+          Auth
+        </Link>
       </main>
     </>
   );
