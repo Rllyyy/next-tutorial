@@ -1,3 +1,4 @@
+import { useSession } from "next-auth/react";
 import Head from "next/head";
 import Link from "next/link";
 import { useRouter } from "next/router";
@@ -8,6 +9,9 @@ export default function Home() {
     router.push("/docs");
     //router.replace("...")
   };
+
+  const { data: session } = useSession();
+  console.log({ session });
 
   return (
     <>
